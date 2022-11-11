@@ -8,7 +8,6 @@ module.exports = {
       },
       colors: {
         'meta-grey': '#434343',
-        'purple-text': 'linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)',
       },
       backgroundImage: {
         'purple-grad': 'linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)',

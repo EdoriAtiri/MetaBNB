@@ -7,9 +7,9 @@ import building_3 from '../Assets/SVG/UI/building_ui_3.svg'
 function Home() {
   return (
     <div className="w-full ">
-      <div className="w-full px-6 pb-16 pt-10 md:flex md:justify-between lg:px-16 lg:pt-40 xl:px-[100px]">
-        <div className="h-fit w-72 lg:w-[646px] ">
-          <p className="h-148px w-full text-2xl font-bold leading-10 tracking-tighter md:text-3xl lg:text-5xl xl:text-[56px]">
+      <div className="flex w-full flex-col items-center justify-center px-6 pb-16 pt-10 md:flex-row md:justify-between lg:px-16 lg:pt-40 xl:px-[100px]">
+        <div className="h-fit w-full text-left md:w-96 lg:w-[550px] xl:w-[646px]">
+          <p className="md:h-148px w-full text-5xl font-bold leading-10 md:text-4xl md:tracking-tighter lg:text-5xl xl:text-[56px]">
             Rent a{' '}
             <span className="h-fit bg-purple-grad bg-clip-text text-transparent">
               Place
@@ -24,40 +24,40 @@ function Home() {
             </span>
           </p>
 
-          <p className="h-102px md:xl py-6 leading-8 md:py-12 lg:text-2xl">
+          <p className="h-102px py-6 text-xl leading-8 sm:text-2xl md:py-12 md:text-xl lg:w-fit xl:w-full  xl:text-2xl">
             we provide you access to luxury and affordable houses in the
             metaverse, get a chance to turn your imagination to reality at your
             comfort zone
           </p>
 
           {/*  */}
-          <div className="flex h-fit flex-col gap-3 lg:h-[54px] lg:flex-row lg:gap-0 ">
+          <div className="flex h-fit  lg:h-[54px] ">
             <input
               type="text"
-              className="h-10 w-full rounded-lg border border-[#a3a3a3] placeholder:pl-3 placeholder:text-sm lg:h-full lg:w-[390px] lg:rounded-br-none lg:rounded-tr-none lg:placeholder:pl-5"
+              className=" h-10 w-3/5 rounded-lg rounded-br-none rounded-tr-none border border-[#a3a3a3] px-2 placeholder:text-sm md:w-7/12 lg:h-full lg:placeholder:pl-5"
               placeholder="Search for location"
             />
-            <button className="h-10 w-full rounded-lg bg-purple-grad text-base text-white transition-transform active:scale-95 lg:h-full lg:w-[230px] lg:rounded-tl-none lg:rounded-bl-none">
+            <button className="h-10 w-2/5 rounded-lg rounded-tl-none rounded-bl-none bg-purple-grad text-base text-white transition-transform active:scale-95 md:w-4/12 lg:h-full">
               Search
             </button>
           </div>
         </div>
 
         {/*  */}
-        <div className="flex gap-2">
-          <div className="mt-24 flex flex-col gap-2">
-            <figure className="h-[176px] w-[234px] overflow-hidden rounded-[15px]">
+        <div className="mt-10 flex gap-2 md:mt-0">
+          <div className="flex flex-col gap-2 md:mt-24">
+            <figure className="hero-img">
               <img src={building} alt="" aria-hidden="true" />
             </figure>
-            <figure className="h-[176px] w-[234px] overflow-hidden rounded-[15px]">
+            <figure className="hero-img">
               <img src={building_1} alt="" aria-hidden="true" />
             </figure>
           </div>
           <div className="flex flex-col gap-2">
-            <figure className="h-[176px] w-[234px] overflow-hidden rounded-[15px]">
+            <figure className="hero-img">
               <img src={building_2} alt="" aria-hidden="true" />
             </figure>
-            <figure className="h-[176px] w-[234px] overflow-hidden rounded-[15px]">
+            <figure className="hero-img">
               <img src={building_3} alt="" aria-hidden="true" />
             </figure>
           </div>

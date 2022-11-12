@@ -3,6 +3,9 @@ import building from '../Assets/SVG/UI/building_ui.svg'
 import building_1 from '../Assets/SVG/UI/building_ui_1.svg'
 import building_2 from '../Assets/SVG/UI/building_ui_2.svg'
 import building_3 from '../Assets/SVG/UI/building_ui_3.svg'
+import mbtoken from '../Assets/SVG/Icon/mbtoken.svg'
+import metamask from '../Assets/SVG/Icon/metamask.svg'
+import opensea from '../Assets/SVG/Icon/opensea.svg'
 
 function Home() {
   return (
@@ -63,6 +66,17 @@ function Home() {
           </div>
         </div>
       </div>
+
+      {/* Banner */}
+      <div className="flex h-[70px] w-full items-center justify-around bg-purple-grad py-4">
+        <img className="h-fit" src={mbtoken} alt="" />
+
+        <img className="h-fit" src={metamask} alt="" />
+
+        <img className="h-fit" src={opensea} alt="" />
+      </div>
+
+      {/* Selected products */}
     </div>
   )
 }

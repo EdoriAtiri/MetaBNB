@@ -13,7 +13,7 @@ function Home() {
     <div className="w-full ">
       <section
         aria-label="hero section"
-        className="flex w-full flex-col items-center justify-center px-6 pb-16 pt-10 md:flex-row md:justify-between lg:px-16 lg:pt-40 xl:px-[100px]"
+        className="section_x_padding flex w-full flex-col items-center justify-center pb-16 pt-10 md:flex-row md:justify-between lg:pt-40"
       >
         <div className="h-fit w-full text-left md:w-96 lg:w-[550px] xl:w-[646px]">
           <p className="md:h-148px w-full text-5xl font-bold leading-10 md:text-4xl md:tracking-tighter lg:text-5xl xl:text-[56px]">
@@ -85,7 +85,7 @@ function Home() {
 
       {/* Selected products */}
       <section
-        className="mt-14 flex w-full flex-col"
+        className="section_x_padding flex w-full flex-col  pt-14 pb-[52px]"
         aria-label="selected products"
       >
         <h2 className="mb-11 text-center text-5xl font-bold text-black">
@@ -94,6 +94,32 @@ function Home() {
         {/*  */}
         <div>
           <ProductCard />
+        </div>
+      </section>
+
+      {/* Discover */}
+      <section className="section_x_padding relative h-[774px] w-full bg-purple-grad pt-[186px] text-white ">
+        <h2 className="mb-9 text-5xl font-bold">Metabnb NFTs</h2>
+        <p className="mb-14 max-w-[415px] text-lg leading-[35px]">
+          Discover our NFT gift cards collection. Loyal customers gets amazing
+          gift cards which are traded as NFTs. These NFTs gives our customer's
+          access to loads of our exclusive services.
+        </p>
+        <button className="rounded-lg  bg-white py-[14px] px-[33px] text-center">
+          <p className="bg-purple-grad bg-clip-text text-center text-base text-transparent ">
+            Learn More
+          </p>
+        </button>
+        <div className="absolute top-0">
+          <figure className="discovery_art rotate-[17.76deg]">
+            <img className="h-full w-full object-cover" src="" alt="" />
+          </figure>
+          <figure className="discovery_art -rotate-[8.76deg]">
+            <img className="h-full w-full object-cover" src="" alt="" />
+          </figure>
+          <figure className="discovery_art -rotate-[26.02deg]">
+            <img className="h-full w-full object-cover" src="" alt="" />
+          </figure>
         </div>
       </section>
     </div>

@@ -6,7 +6,7 @@ function Header() {
   const [isNavToggle, setIsNavToggle] = useState(false)
   return (
     <div className="w-full">
-      <header className="hidden h-24 w-full items-center justify-between md:flex md:px-6 lg:px-16 xl:px-[100px]">
+      <header className="section_x_padding hidden h-24 w-full items-center justify-between md:flex">
         <div className="flex items-center justify-between">
           <img
             className="h-auto w-8 lg:w-[41.99px]"

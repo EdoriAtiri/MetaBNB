@@ -16,4 +16,12 @@
   .hero-img {
     @apply h-auto w-full overflow-hidden rounded-[15px] md:w-[calc(150px+3vw)]  xl:w-52 2xl:h-[176px] 2xl:w-[234px];
   }
+
+  .discovery_art {
+    @apply absolute h-[253px]  w-[378px] overflow-hidden rounded-[10px] bg-black;
+  }
+
+  .section_x_padding {
+    @apply px-6 lg:px-16 xl:px-[100px];
+  }
 }

@@ -18,7 +18,7 @@
   }
 
   .discovery_art {
-    @apply absolute h-[253px]  w-[378px] overflow-hidden rounded-[10px] bg-black;
+    @apply absolute z-10 block sm:h-auto sm:w-[300px] xl:w-[378.2px];
   }
 
   .section_x_padding {

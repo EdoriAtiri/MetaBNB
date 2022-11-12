@@ -7,6 +7,9 @@ import mbtoken from '../Assets/SVG/Icon/mbtoken.svg'
 import metamask from '../Assets/SVG/Icon/metamask.svg'
 import opensea from '../Assets/SVG/Icon/opensea.svg'
 import ProductCard from '../Components/ProductCard'
+import discover_1 from '../Assets/SVG/UI/discover_1.svg'
+import discover_2 from '../Assets/SVG/UI/discover_2.svg'
+import discover_3 from '../Assets/SVG/UI/discover_3.svg'
 
 function Home() {
   return (
@@ -98,28 +101,35 @@ function Home() {
       </section>
 
       {/* Discover */}
-      <section className="section_x_padding relative h-[774px] w-full bg-purple-grad pt-[186px] text-white ">
-        <h2 className="mb-9 text-5xl font-bold">Metabnb NFTs</h2>
-        <p className="mb-14 max-w-[415px] text-lg leading-[35px]">
+      <section className="section_x_padding relative h-[774px] w-full bg-purple-grad pt-[186px] text-white">
+        <h2 className="relative z-30 mb-9 text-5xl font-bold">Metabnb NFTs</h2>
+        <p className="relative z-30 mb-14 max-w-[415px]  text-lg leading-[35px]">
           Discover our NFT gift cards collection. Loyal customers gets amazing
           gift cards which are traded as NFTs. These NFTs gives our customer's
           access to loads of our exclusive services.
         </p>
-        <button className="rounded-lg  bg-white py-[14px] px-[33px] text-center">
+        <button className="relative z-30 rounded-lg bg-white py-[14px] px-[33px] text-center">
           <p className="bg-purple-grad bg-clip-text text-center text-base text-transparent ">
             Learn More
           </p>
         </button>
-        <div className="absolute top-0">
-          <figure className="discovery_art rotate-[17.76deg]">
-            <img className="h-full w-full object-cover" src="" alt="" />
-          </figure>
-          <figure className="discovery_art -rotate-[8.76deg]">
-            <img className="h-full w-full object-cover" src="" alt="" />
-          </figure>
-          <figure className="discovery_art -rotate-[26.02deg]">
-            <img className="h-full w-full object-cover" src="" alt="" />
-          </figure>
+        {/* discover */}
+        <div className="absolute top-[100px] right-[99px] sm:h-[400px] sm:w-[500px] sm:before:absolute sm:before:inset-0 sm:before:z-20 sm:before:h-[415px] sm:before:w-full sm:before:bg-black sm:before:opacity-50 lg:before:content-none xl:h-[500px] xl:w-[630px]">
+          <img
+            className="discovery_art top-0 right-9"
+            src={discover_1}
+            alt=""
+          />
+          <img
+            className="discovery_art bottom-5 left-3  "
+            src={discover_2}
+            alt=""
+          />
+          <img
+            className="discovery_art -bottom-3 right-0"
+            src={discover_3}
+            alt=""
+          />
         </div>
       </section>
     </div>

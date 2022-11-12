@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import metabnb from '../../Assets/SVG/Icon/metabnb.svg'
-import metabnb_home from '../../Assets/SVG/Icon/metabnb_home.svg'
+import metabnb from '../Assets/SVG/Icon/metabnb.svg'
+import metabnb_home from '../Assets/SVG/Icon/metabnb_home.svg'
 
 function Header() {
   const [isNavToggle, setIsNavToggle] = useState(false)

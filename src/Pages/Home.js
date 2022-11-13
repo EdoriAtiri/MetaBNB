@@ -77,13 +77,25 @@ function Home() {
       {/* Banner */}
       <section
         aria-label="banner"
-        className="flex h-[70px] w-full items-center justify-around bg-purple-grad py-4"
+        className="flex h-[70px] w-full items-center justify-around bg-purple-grad py-4 md:flex-row"
       >
-        <img className="h-fit" src={mbtoken} alt="mbtoken logo" />
+        <img
+          className="h-fit max-w-[100px] sm:max-w-[140px] md:max-w-[220px]"
+          src={mbtoken}
+          alt="mbtoken logo"
+        />
 
-        <img className="h-fit" src={metamask} alt="metamask logo" />
+        <img
+          className="h-fit max-w-[100px] sm:max-w-[140px] md:max-w-[220px]"
+          src={metamask}
+          alt="metamask logo"
+        />
 
-        <img className="h-fit" src={opensea} alt="opensea logo" />
+        <img
+          className="h-fit max-w-[100px] sm:max-w-[140px] md:max-w-[220px]"
+          src={opensea}
+          alt="opensea logo"
+        />
       </section>
 
       {/* Selected products */}

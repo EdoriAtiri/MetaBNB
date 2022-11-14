@@ -8,7 +8,7 @@ function ConnectWallet() {
 
   return (
     <div className="absolute top-0 z-40 hidden h-screen w-full  bg-[#404040] bg-opacity-30">
-      <div class="absolute top-1/2 left-1/2 z-50 h-[326px] w-[320px] -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-white after:absolute after:top-[78px] after:h-[1px] after:w-full after:bg-[#CFD8DC] sm:w-[550px] md:w-[600px]">
+      <div className="absolute top-1/2 left-1/2 z-50 h-[326px] w-[320px] -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-white after:absolute after:top-[78px] after:h-[1px] after:w-full after:bg-[#CFD8DC] sm:w-[550px] md:w-[600px]">
         <div className="relative flex h-[78px] w-full items-center justify-between px-8 ">
           <p className="text-2xl font-bold">Connect Wallet</p>
           <button className="text-5xl">&times;</button>

@@ -6,7 +6,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151.png',
+    image: require('./PNG/Frame 151.png'),
   },
 
   {
@@ -16,7 +16,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-1.png',
+    image: require('./PNG/Frame 151-1.png'),
   },
 
   {
@@ -26,7 +26,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-2.png',
+    image: require('./PNG/Frame 151-2.png'),
   },
 
   {
@@ -36,7 +36,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-3.png',
+    image: require('./PNG/Frame 151-3.png'),
   },
 
   {
@@ -46,7 +46,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-4.png',
+    image: require('./PNG/Frame 151-4.png'),
   },
 
   {
@@ -56,7 +56,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-5.png',
+    image: require('./PNG/Frame 151-5.png'),
   },
 
   {
@@ -66,7 +66,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-6.png',
+    image: require('./PNG/Frame 151-6.png'),
   },
 
   {
@@ -76,7 +76,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-7.png',
+    image: require('./PNG/Frame 151-7.png'),
   },
 
   {
@@ -86,7 +86,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-8.png',
+    image: require('./PNG/Frame 151-8.png'),
   },
 
   {
@@ -96,7 +96,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-9.png',
+    image: require('./PNG/Frame 151-9.png'),
   },
 
   {
@@ -106,7 +106,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-10.png',
+    image: require('./PNG/Frame 151-10.png'),
   },
 
   {
@@ -116,7 +116,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-11.png',
+    image: require('./PNG/Frame 151-11.png'),
   },
 
   {
@@ -126,7 +126,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-12.png',
+    image: require('./PNG/Frame 151-12.png'),
   },
 
   {
@@ -136,7 +136,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-13.png',
+    image: require('./PNG/Frame 151-13.png'),
   },
 
   {
@@ -146,7 +146,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-14.png',
+    image: require('./PNG/Frame 151-14.png'),
   },
 
   {
@@ -156,6 +156,6 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: './PNG/Frame 151-15.png',
+    image: require('./PNG/Frame 151-15.png'),
   },
 ]

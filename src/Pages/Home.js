@@ -10,8 +10,10 @@ import ProductCard from '../Components/ProductCard'
 import discover_1 from '../Assets/SVG/UI/discover_1.svg'
 import discover_2 from '../Assets/SVG/UI/discover_2.svg'
 import discover_3 from '../Assets/SVG/UI/discover_3.svg'
+import { data } from '../Assets/data'
 
 function Home() {
+  console.log(data)
   return (
     <div className="w-full ">
       <section
@@ -103,12 +105,22 @@ function Home() {
         className="section_x_padding flex w-full flex-col  pt-14 pb-[52px]"
         aria-label="selected products"
       >
-        <h2 className="mb-11 text-center text-5xl font-bold text-black">
+        <h2 className="mb-11 text-center text-4xl font-bold text-black sm:text-5xl">
           Inspiration for your next adventure
         </h2>
         {/*  */}
-        <div>
-          <ProductCard />
+        <div className="mx-auto grid w-fit gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+          {data.slice(7, 15).map((data) => (
+            <ProductCard
+              key={data.id}
+              name={data.name}
+              rating={data.rating}
+              cost={data.cost}
+              availability={data.availability}
+              distance={data.distance}
+              image={data.image}
+            />
+          ))}
         </div>
       </section>
 

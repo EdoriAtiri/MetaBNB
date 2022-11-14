@@ -13,7 +13,6 @@ import discover_3 from '../Assets/SVG/UI/discover_3.svg'
 import { data } from '../Assets/data'
 
 function Home() {
-  console.log(data)
   return (
     <div className="w-full ">
       <section

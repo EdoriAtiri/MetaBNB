@@ -3,7 +3,7 @@ import { useState } from 'react'
 import metabnb from '../Assets/SVG/Icon/metabnb.svg'
 import metabnb_home from '../Assets/SVG/Icon/metabnb_home.svg'
 
-function Header() {
+function Header({ handleConnectClick }) {
   const [isNavToggle, setIsNavToggle] = useState(false)
   return (
     <div className="section_x_padding flex h-24 w-full flex-row-reverse items-center justify-center md:block">
@@ -21,7 +21,7 @@ function Header() {
           />
         </div>
 
-        <nav className="  hidden items-center justify-between gap-4 md:flex lg:gap-12">
+        <nav className="hidden items-center justify-between gap-4 md:flex lg:gap-12">
           <Link to="/" style={{ textDecoration: 'none' }}>
             <a className="nav-links " href="#home">
               Home
@@ -40,7 +40,10 @@ function Header() {
           </a>
         </nav>
 
-        <button className="h-12 w-[170px] rounded-[10px] bg-purple-grad text-sm text-white sm:text-base">
+        <button
+          className="h-12 w-[170px] rounded-[10px] bg-purple-grad text-sm text-white sm:text-base"
+          onClick={handleConnectClick}
+        >
           Connect Wallet
         </button>
       </header>

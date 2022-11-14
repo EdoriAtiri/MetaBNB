@@ -5,22 +5,22 @@ import metabnb_home from '../Assets/SVG/Icon/metabnb_home.svg'
 function Header() {
   const [isNavToggle, setIsNavToggle] = useState(false)
   return (
-    <div className="w-full">
-      <header className="section_x_padding hidden h-24 w-full items-center justify-between md:flex">
+    <div className="section_x_padding flex w-full flex-row-reverse items-center justify-center md:block">
+      <header className=" ml-auto flex h-24 items-center gap-6 md:ml-0 md:w-full md:justify-between md:gap-0 ">
         <div className="flex items-center justify-between">
           <img
-            className="h-auto w-8 lg:w-[41.99px]"
+            className="h-auto w-6 sm:w-8 lg:w-[41.99px]"
             src={metabnb_home}
             alt="metabnb_logo"
           />
           <img
-            className="h-auto w-24 md:w-32 lg:w-[188px]"
+            className="h-auto w-20 sm:w-24 md:w-32 lg:w-[188px]"
             src={metabnb}
             alt="metabnb_logo"
           />
         </div>
 
-        <nav className="flex items-center justify-between gap-5 lg:gap-12">
+        <nav className="  hidden items-center justify-between gap-4 md:flex lg:gap-12">
           <a className="nav-links " href="#home">
             Home
           </a>
@@ -35,14 +35,14 @@ function Header() {
           </a>
         </nav>
 
-        <button className="h-12 w-[170px] rounded-[10px] bg-purple-grad text-white">
+        <button className="h-12 w-[170px] rounded-[10px] bg-purple-grad text-sm text-white sm:text-base">
           Connect Wallet
         </button>
       </header>
 
       {/* hamburger */}
       <button
-        className=" px-6 pt-6 md:hidden"
+        className="pr-6 md:hidden"
         onClick={() => setIsNavToggle(!isNavToggle)}
       >
         <div

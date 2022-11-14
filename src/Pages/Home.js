@@ -125,14 +125,14 @@ function Home() {
       </section>
 
       {/* Discover */}
-      <section className="section_x_padding relative h-[774px] w-full bg-purple-grad pt-[186px] text-white">
+      <section className="section_x_padding relative flex h-[500px] w-full flex-col justify-center bg-purple-grad pt-0 text-white sm:block sm:h-[774px] sm:pt-[186px]">
         <h2 className="relative z-30 mb-9 text-5xl font-bold">Metabnb NFTs</h2>
         <p className="relative z-30 mb-14 max-w-[415px]  text-lg leading-[35px]">
           Discover our NFT gift cards collection. Loyal customers gets amazing
           gift cards which are traded as NFTs. These NFTs gives our customer's
           access to loads of our exclusive services.
         </p>
-        <button className="relative z-30 rounded-lg bg-white py-[14px] px-[33px] text-center">
+        <button className="relative z-30  rounded-lg bg-white py-[14px] px-[33px] text-center">
           <p className="bg-purple-grad bg-clip-text text-center text-base text-transparent ">
             Learn More
           </p>

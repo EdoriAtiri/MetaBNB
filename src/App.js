@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Header from './Partials/Header'
@@ -12,8 +12,14 @@ function App() {
 
   const handleConnectClick = () => {
     setConnectPopup((prevStatus) => !prevStatus)
-    console.log(ConnectPopup)
   }
+
+  if (ConnectPopup) {
+    document.body.classList.add('no-scroll')
+  } else {
+    document.body.classList.remove('no-scroll')
+  }
+
   return (
     <Router>
       <div className="relative w-full font-redRose font-normal text-meta-grey">
@@ -23,7 +29,9 @@ function App() {
           <Route path="/places" element={<Places />} />
         </Routes>
         <Footer />
-        {ConnectPopup && <ConnectWallet />}
+        {ConnectPopup && (
+          <ConnectWallet handleConnectClick={handleConnectClick} />
+        )}
       </div>
     </Router>
   )

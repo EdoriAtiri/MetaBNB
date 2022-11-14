@@ -32,9 +32,12 @@ function Header({ handleConnectClick }) {
               Place to stay
             </a>
           </Link>
-          <a className="nav-links " href="#home">
-            NFTs
-          </a>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <a className="nav-links" href="#NFT">
+              NFTs
+            </a>
+          </Link>
+
           <a className="nav-links " href="#home">
             Community
           </a>

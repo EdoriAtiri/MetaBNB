@@ -124,7 +124,10 @@ function Home() {
       </section>
 
       {/* Discover */}
-      <section className="section_x_padding relative flex h-[500px] w-full flex-col justify-center bg-purple-grad pt-0 text-white sm:block sm:h-[774px] sm:pt-[186px]">
+      <section
+        id="NFT"
+        className="section_x_padding relative flex h-[500px] w-full flex-col justify-center bg-purple-grad pt-0 text-white sm:block sm:h-[774px] sm:pt-[186px]"
+      >
         <h2 className="relative z-30 mb-9 text-5xl font-bold">Metabnb NFTs</h2>
         <p className="relative z-30 mb-14 max-w-[415px]  text-lg leading-[35px]">
           Discover our NFT gift cards collection. Loyal customers gets amazing

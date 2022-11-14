@@ -14,7 +14,7 @@
   }
 
   .mobile-nav-link {
-    @apply relative cursor-pointer pl-4 transition-opacity duration-300 ease-in before:absolute before:left-0 before:top-0 before:h-full before:w-2 before:bg-white before:opacity-0 hover:before:opacity-100;
+    @apply relative cursor-pointer pl-4 duration-300 ease-in before:absolute before:left-0 before:top-0 before:h-full before:w-2 before:bg-white before:opacity-0 before:transition-opacity hover:before:opacity-100;
   }
 
   .hamburger {

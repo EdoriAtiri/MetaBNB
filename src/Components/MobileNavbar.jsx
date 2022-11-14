@@ -12,7 +12,7 @@ function MobileNavbar({ closeNav, isNavToggle }) {
         onClick={closeNav}
         className="absolute top-0 right-0 h-screen w-1/5 bg-purple-grad opacity-20"
       ></div>
-      <nav className=" z-40 flex h-screen w-4/5 flex-col gap-20 bg-purple-grad pl-4 pt-20 text-2xl text-white">
+      <nav className=" z-40 flex h-screen w-4/5 flex-col gap-20 bg-purple-grad pl-4 pt-28 text-2xl text-white">
         <Link to="/" style={{ textDecoration: 'none' }} onClick={closeNav}>
           <span className="mobile-nav-link">Home</span>
         </Link>

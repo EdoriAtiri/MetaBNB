@@ -1,3 +1,16 @@
 .no-scroll {
   overflow-y: hidden;
 }
+.connect {
+  animation-name: example;
+  animation-duration: 0.4s;
+}
+
+@keyframes example {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 50%;
+  }
+}

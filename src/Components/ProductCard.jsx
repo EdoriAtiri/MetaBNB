@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactComponent as StarIcon } from '../Assets/SVG/Functional/star.svg'
-import desert_king from '../Assets/SVG/ProductImages/desert_king.svg'
+
 function ProductCard({
   name,
   id,

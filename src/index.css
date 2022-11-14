@@ -6,7 +6,7 @@
 
 @layer components {
   .nav-links {
-    @apply text-meta-grey md:text-lg xl:text-xl;
+    @apply relative text-meta-grey after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-purple-grad after:transition-all after:duration-300 hover:after:w-full md:text-lg xl:text-xl;
   }
 
   .hamburger {
@@ -14,7 +14,7 @@
   }
 
   .hero-img {
-    @apply h-auto w-full overflow-hidden rounded-[15px] md:w-[calc(150px+3vw)]  xl:w-52 2xl:h-[176px] 2xl:w-[234px];
+    @apply h-auto w-full overflow-hidden rounded-[15px] bg-slate-300 md:w-[calc(150px+3vw)]  xl:w-52 2xl:h-[176px] 2xl:w-[234px];
   }
 
   .discovery_art {

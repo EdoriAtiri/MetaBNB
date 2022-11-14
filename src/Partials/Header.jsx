@@ -23,28 +23,23 @@ function Header({ handleConnectClick }) {
 
         <nav className="hidden items-center justify-between gap-4 md:flex lg:gap-12">
           <Link to="/" style={{ textDecoration: 'none' }}>
-            <a className="nav-links " href="#home">
+            <span className="nav-links " href="#home">
               Home
-            </a>
+            </span>
           </Link>
           <Link to="/places" style={{ textDecoration: 'none' }}>
-            <a className="nav-links " href="#places">
+            <span className="nav-links " href="#places">
               Place to stay
-            </a>
+            </span>
           </Link>
-          <Link to="/" style={{ textDecoration: 'none' }}>
-            <a className="nav-links" href="#NFT">
-              NFTs
-            </a>
-          </Link>
-
-          <a className="nav-links " href="#home">
+          <span className="nav-links cursor-pointer">NFTs</span>
+          <span className="nav-links cursor-pointer" href="#home">
             Community
-          </a>
+          </span>
         </nav>
 
         <button
-          className="h-12 w-[170px] rounded-[10px] bg-purple-grad text-sm text-white sm:text-base"
+          className="h-12 w-[170px] rounded-[10px] bg-purple-grad text-sm text-white transition-transform active:scale-95 sm:text-base"
           onClick={handleConnectClick}
         >
           Connect Wallet

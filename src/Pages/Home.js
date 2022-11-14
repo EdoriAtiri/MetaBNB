@@ -1,16 +1,16 @@
 import React from 'react'
-import building from '../Assets/SVG/UI/building_ui.svg'
-import building_1 from '../Assets/SVG/UI/building_ui_1.svg'
-import building_2 from '../Assets/SVG/UI/building_ui_2.svg'
-import building_3 from '../Assets/SVG/UI/building_ui_3.svg'
+import hero_decor_1 from '../Assets/WEBP/Decor/hero_decor_1.png'
+import hero_decor_2 from '../Assets/WEBP/Decor/hero_decor_2.png'
+import hero_decor_3 from '../Assets/WEBP/Decor/hero_decor_3.png'
+import hero_decor_4 from '../Assets/WEBP/Decor/hero_decor_4.png'
 import mbtoken from '../Assets/SVG/Icon/mbtoken.svg'
 import metamask from '../Assets/SVG/Icon/metamask.svg'
 import opensea from '../Assets/SVG/Icon/opensea.svg'
 import ProductCard from '../Components/ProductCard'
-import discover_1 from '../Assets/SVG/UI/discover_1.svg'
-import discover_2 from '../Assets/SVG/UI/discover_2.svg'
-import discover_3 from '../Assets/SVG/UI/discover_3.svg'
 import { data } from '../Assets/data'
+import discover_1 from '../Assets/WEBP/Decor/discover_1.webp'
+import discover_2 from '../Assets/WEBP/Decor/discover_2.webp'
+import discover_3 from '../Assets/WEBP/Decor/discover_3.webp'
 
 function Home() {
   return (
@@ -58,18 +58,18 @@ function Home() {
         <div className="mt-10 flex gap-2 md:mt-0">
           <div className="flex flex-col gap-2 md:mt-24">
             <figure className="hero-img">
-              <img src={building} alt="" aria-hidden="true" />
+              <img src={hero_decor_1} alt="" aria-hidden="true" />
             </figure>
             <figure className="hero-img">
-              <img src={building_1} alt="" aria-hidden="true" />
+              <img src={hero_decor_2} alt="" aria-hidden="true" />
             </figure>
           </div>
           <div className="flex flex-col gap-2">
             <figure className="hero-img">
-              <img src={building_2} alt="" aria-hidden="true" />
+              <img src={hero_decor_3} alt="" aria-hidden="true" />
             </figure>
             <figure className="hero-img">
-              <img src={building_3} alt="" aria-hidden="true" />
+              <img src={hero_decor_4} alt="" aria-hidden="true" />
             </figure>
           </div>
         </div>
@@ -139,21 +139,24 @@ function Home() {
             Learn More
           </p>
         </button>
-        {/* discover */}
+        {/* discover decor*/}
         <div className="absolute top-[100px] right-[99px] sm:h-[400px] sm:w-[500px] sm:before:absolute sm:before:inset-0 sm:before:z-20 sm:before:h-[415px] sm:before:w-full sm:before:bg-black sm:before:opacity-50 lg:before:content-none xl:h-[500px] xl:w-[630px]">
           <img
             className="discovery_art top-0 right-9"
             src={discover_1}
+            aria-hidden="true"
             alt=""
           />
           <img
             className="discovery_art bottom-5 left-3  "
             src={discover_2}
+            aria-hidden="true"
             alt=""
           />
           <img
             className="discovery_art -bottom-3 right-0"
             src={discover_3}
+            aria-hidden="true"
             alt=""
           />
         </div>

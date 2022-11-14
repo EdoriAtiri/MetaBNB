@@ -6,7 +6,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/1.webp'),
+    image: require('./WEBP/Data/1.webp'),
   },
 
   {
@@ -16,7 +16,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/2.webp'),
+    image: require('./WEBP/Data/2.webp'),
   },
 
   {
@@ -26,7 +26,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/3.webp'),
+    image: require('./WEBP/Data/3.webp'),
   },
 
   {
@@ -36,7 +36,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/4.webp'),
+    image: require('./WEBP/Data/4.webp'),
   },
 
   {
@@ -46,7 +46,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/5.webp'),
+    image: require('./WEBP/Data/5.webp'),
   },
 
   {
@@ -56,7 +56,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/6.webp'),
+    image: require('./WEBP/Data/6.webp'),
   },
 
   {
@@ -66,7 +66,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/7.webp'),
+    image: require('./WEBP/Data/7.webp'),
   },
 
   {
@@ -76,7 +76,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/8.webp'),
+    image: require('./WEBP/Data/8.webp'),
   },
 
   {
@@ -86,7 +86,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/9.webp'),
+    image: require('./WEBP/Data/9.webp'),
   },
 
   {
@@ -96,7 +96,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/10.webp'),
+    image: require('./WEBP/Data/10.webp'),
   },
 
   {
@@ -106,7 +106,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/11.webp'),
+    image: require('./WEBP/Data/11.webp'),
   },
 
   {
@@ -116,7 +116,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/12.webp'),
+    image: require('./WEBP/Data/12.webp'),
   },
 
   {
@@ -126,7 +126,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/13.webp'),
+    image: require('./WEBP/Data/13.webp'),
   },
 
   {
@@ -136,7 +136,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/14.webp'),
+    image: require('./WEBP/Data/14.webp'),
   },
 
   {
@@ -146,7 +146,7 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/15.webp'),
+    image: require('./WEBP/Data/15.webp'),
   },
 
   {
@@ -156,6 +156,6 @@ export const data = [
     cost: 1,
     distance: '2345km away',
     availability: 'available for 2weeks stay',
-    image: require('./WEBP/16.webp'),
+    image: require('./WEBP/Data/16.webp'),
   },
 ]

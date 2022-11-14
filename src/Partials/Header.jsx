@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import metabnb from '../Assets/SVG/Icon/metabnb.svg'
 import metabnb_home from '../Assets/SVG/Icon/metabnb_home.svg'
@@ -5,8 +6,8 @@ import metabnb_home from '../Assets/SVG/Icon/metabnb_home.svg'
 function Header() {
   const [isNavToggle, setIsNavToggle] = useState(false)
   return (
-    <div className="section_x_padding flex w-full flex-row-reverse items-center justify-center md:block">
-      <header className=" ml-auto flex h-24 items-center gap-6 md:ml-0 md:w-full md:justify-between md:gap-0 ">
+    <div className="section_x_padding flex h-24 w-full flex-row-reverse items-center justify-center md:block">
+      <header className=" ml-auto flex h-full items-center gap-6 md:ml-0 md:w-full md:justify-between md:gap-0 ">
         <div className="flex items-center justify-between">
           <img
             className="h-auto w-6 sm:w-8 lg:w-[41.99px]"
@@ -21,12 +22,16 @@ function Header() {
         </div>
 
         <nav className="  hidden items-center justify-between gap-4 md:flex lg:gap-12">
-          <a className="nav-links " href="#home">
-            Home
-          </a>
-          <a className="nav-links " href="#home">
-            Place to stay
-          </a>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <a className="nav-links " href="#home">
+              Home
+            </a>
+          </Link>
+          <Link to="/places" style={{ textDecoration: 'none' }}>
+            <a className="nav-links " href="#places">
+              Place to stay
+            </a>
+          </Link>
           <a className="nav-links " href="#home">
             NFTs
           </a>

@@ -2,15 +2,33 @@
   overflow-y: hidden;
 }
 .connect {
-  animation-name: example;
+  animation-name: connect;
   animation-duration: 0.4s;
 }
 
-@keyframes example {
+.enter {
+  animation-name: enter;
+  transition: transform 0.4s ease;
+}
+
+.exit {
+  transform: translateX(-1000px);
+  transition: transform 0.4s ease;
+}
+
+@keyframes connect {
   0% {
     top: -100%;
   }
   100% {
     top: 50%;
+  }
+}
+@keyframes enter {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(1000px);
   }
 }

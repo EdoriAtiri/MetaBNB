@@ -134,7 +134,7 @@ function Home() {
           gift cards which are traded as NFTs. These NFTs gives our customer's
           access to loads of our exclusive services.
         </p>
-        <button className="relative z-30  rounded-lg bg-white py-[14px] px-[33px] text-center">
+        <button className="relative z-30  rounded-lg bg-white py-[14px] px-[33px] text-center transition-transform active:scale-95">
           <p className="bg-purple-grad bg-clip-text text-center text-base text-transparent ">
             Learn More
           </p>

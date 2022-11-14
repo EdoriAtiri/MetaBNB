@@ -6,11 +6,19 @@
 
 @layer components {
   .nav-links {
-    @apply relative text-meta-grey after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-purple-grad after:transition-all after:duration-300 hover:after:w-full md:text-lg xl:text-xl;
+    @apply nav-link-effect relative text-meta-grey  after:absolute md:text-lg xl:text-xl;
+  }
+
+  .nav-link-effect {
+    @apply after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-purple-grad after:transition-all after:duration-300 hover:after:w-full;
+  }
+
+  .mobile-nav-link {
+    @apply relative cursor-pointer pl-4 transition-opacity duration-300 ease-in before:absolute before:left-0 before:top-0 before:h-full before:w-2 before:bg-white before:opacity-0 hover:before:opacity-100;
   }
 
   .hamburger {
-    @apply h-0.5 w-7 bg-black transition-transform duration-300 ease-in;
+    @apply h-0.5 w-7 bg-black transition-all duration-300 ease-in;
   }
 
   .hero-img {

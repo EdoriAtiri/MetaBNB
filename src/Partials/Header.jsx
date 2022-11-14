@@ -1,12 +1,22 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import MobileNavbar from '../Components/MobileNavbar'
 import metabnb from '../Assets/SVG/Icon/metabnb.svg'
 import metabnb_home from '../Assets/SVG/Icon/metabnb_home.svg'
 
 function Header({ handleConnectClick }) {
   const [isNavToggle, setIsNavToggle] = useState(false)
+
+  const closeNav = () => {
+    setIsNavToggle(false)
+  }
+  if (isNavToggle) {
+    document.body.classList.add('no-scroll')
+  } else {
+    document.body.classList.remove('no-scroll')
+  }
   return (
-    <div className="section_x_padding flex h-24 w-full flex-row-reverse items-center justify-center md:block">
+    <div className="section_x_padding relative flex h-24 w-full flex-row-reverse items-center justify-center md:block">
       <header className=" ml-auto flex h-full items-center gap-6 md:ml-0 md:w-full md:justify-between md:gap-0 ">
         <div className="flex items-center justify-between">
           <img
@@ -23,14 +33,10 @@ function Header({ handleConnectClick }) {
 
         <nav className="hidden items-center justify-between gap-4 md:flex lg:gap-12">
           <Link to="/" style={{ textDecoration: 'none' }}>
-            <span className="nav-links " href="#home">
-              Home
-            </span>
+            <span className="nav-links">Home</span>
           </Link>
           <Link to="/places" style={{ textDecoration: 'none' }}>
-            <span className="nav-links " href="#places">
-              Place to stay
-            </span>
+            <span className="nav-links">Place to stay</span>
           </Link>
           <span className="nav-links cursor-pointer">NFTs</span>
           <span className="nav-links cursor-pointer" href="#home">
@@ -45,15 +51,17 @@ function Header({ handleConnectClick }) {
           Connect Wallet
         </button>
       </header>
+      {/* mobile navbar */}
 
+      <MobileNavbar isNavToggle={isNavToggle} closeNav={closeNav} />
       {/* hamburger */}
       <button
-        className="pr-6 md:hidden"
+        className="z-[60] pr-6 md:hidden"
         onClick={() => setIsNavToggle(!isNavToggle)}
       >
         <div
           className={`hamburger my-[6px] ${
-            isNavToggle ? 'translate-y-3 rotate-[135deg] ' : ''
+            isNavToggle ? 'translate-y-3 rotate-[135deg] bg-white ' : ''
           }`}
         ></div>
         <div
@@ -61,7 +69,7 @@ function Header({ handleConnectClick }) {
         ></div>
         <div
           className={`hamburger my-[6px] ${
-            isNavToggle ? '-translate-y-3 -rotate-[135deg] ' : ''
+            isNavToggle ? '-translate-y-3 -rotate-[135deg] bg-white ' : ''
           }`}
         ></div>
       </button>

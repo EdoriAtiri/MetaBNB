@@ -11,7 +11,7 @@ function ProductCard({
   image,
 }) {
   return (
-    <div className="h-[372px] w-[292px] rounded-[15px] border border-[#D7D7D7] p-4 text-xs text-meta-grey">
+    <div className="h-[372px] w-[292px] rounded-[15px] border border-[#D7D7D7] p-4 text-xs text-meta-grey transition-shadow duration-300 hover:shadow-lg">
       <figure className="mb-4 h-[265px] w-[260px] overflow-hidden rounded-[15px] border border-[#D7D7D7]">
         <img src={image} alt={name} className="h-full w-full object-cover" />
       </figure>

@@ -7,11 +7,11 @@ function Places() {
   return (
     <div className="section_x_padding pt-[91px]">
       <div className="flex h-fit w-full items-center justify-between pb-16 font-normal 2xl:pr-8">
-        <ul className="flex flex-wrap gap-2 text-sm text-meta-grey sm:gap-3 md:gap-4 md:text-base lg:gap-6 xl:gap-9 xl:text-xl 2xl:gap-12 2xl:px-12">
+        <ul className="flex flex-wrap gap-2 text-sm text-meta-grey sm:gap-3 md:gap-4 md:text-base lg:gap-6 xl:gap-9 xl:text-xl 2xl:gap-12 2xl:px-12 [&>*]:cursor-pointer">
           <li>Restaurant</li>
           <li>Cottage</li>
           <li>Castle</li>
-          <li>Fantastic city</li>
+          <li>Fantast city</li>
           <li>Beach</li>
           <li>Carbins</li>
           <li>Off-grid</li>
@@ -24,7 +24,7 @@ function Places() {
       </div>
 
       {/*  */}
-      <div className="mx-auto grid w-fit gap-6 pb-[92px] sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+      <div className="mx-auto grid w-fit gap-6 pb-[92px] sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 [&>*]:cursor-pointer">
         {data.map((data) => (
           <ProductCard
             key={data.id}

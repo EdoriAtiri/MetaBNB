@@ -108,7 +108,7 @@ function Home() {
           Inspiration for your next adventure
         </h2>
         {/*  */}
-        <div className="mx-auto grid w-fit gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+        <div className="mx-auto grid w-fit gap-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 [&>*]:cursor-pointer">
           {data.slice(7, 15).map((data) => (
             <ProductCard
               key={data.id}

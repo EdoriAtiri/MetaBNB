@@ -7,7 +7,7 @@ function Places() {
   return (
     <div className="section_x_padding pt-[91px]">
       <div className="flex h-fit w-full items-center justify-between pb-16 font-normal 2xl:pr-8">
-        <ul className="flex flex-wrap gap-2 text-sm text-meta-grey sm:gap-3 md:gap-4 md:text-base lg:gap-6 xl:gap-9 xl:text-xl 2xl:gap-12">
+        <ul className="flex flex-wrap gap-2 text-sm text-meta-grey sm:gap-3 md:gap-4 md:text-base lg:gap-6 xl:gap-9 xl:text-xl 2xl:gap-12 2xl:px-12">
           <li>Restaurant</li>
           <li>Cottage</li>
           <li>Castle</li>

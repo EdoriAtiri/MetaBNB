@@ -25,7 +25,7 @@ function Footer() {
             alt="metabnb logo text"
           />
         </figure>
-        <div className="mb-14 flex gap-9">
+        <div className="mb-14 flex gap-9 [&>*]:cursor-pointer">
           <img
             className="max-w-[9px]"
             src={facebook_logo}
@@ -46,8 +46,10 @@ function Footer() {
 
       <div className="flex w-full justify-between sm:w-2/3 lg:pr-24 xl:pr-36">
         <div>
-          <p className="mb-[23px] text-lg font-bold text-white">Community</p>
-          <ul className="flex flex-col gap-4 text-sm text-[#F1F3F9]">
+          <p className="mb-[23px] cursor-pointer text-lg font-bold text-white">
+            Community
+          </p>
+          <ul className="flex  flex-col gap-4 text-sm text-[#F1F3F9] [&>*]:cursor-pointer">
             <li>NFT</li>
             <li>Tokens</li>
             <li>Landlords</li>
@@ -55,8 +57,10 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <p className="mb-[23px] text-lg font-bold text-white">Places</p>
-          <ul className="flex flex-col gap-4 text-sm text-[#F1F3F9]">
+          <p className="mb-[23px] cursor-pointer text-lg font-bold text-white">
+            Places
+          </p>
+          <ul className="flex  flex-col gap-4 text-sm text-[#F1F3F9] [&>*]:cursor-pointer">
             <li>Castle</li>
             <li>Farms</li>
             <li>Beach</li>
@@ -64,8 +68,10 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <p className="mb-[23px] text-lg font-bold text-white">About Us</p>
-          <ul className="flex flex-col gap-4 text-sm text-[#F1F3F9]">
+          <p className="mb-[23px] cursor-pointer text-lg font-bold text-white">
+            About Us
+          </p>
+          <ul className="flex flex-col gap-4 text-sm text-[#F1F3F9] [&>*]:cursor-pointer">
             <li>Road Map</li>
             <li>Creators</li>
             <li>Career</li>

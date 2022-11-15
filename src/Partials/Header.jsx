@@ -32,11 +32,15 @@ function Header({ handleConnectClick }) {
         </div>
 
         <nav className="hidden items-center justify-between gap-4 md:flex lg:gap-12">
-          <Link to="/" style={{ textDecoration: 'none' }}>
-            <span className="nav-links">Home</span>
+          <Link to="/" style={{ textDecoration: 'none' }} className="nav-links">
+            Home
           </Link>
-          <Link to="/places" style={{ textDecoration: 'none' }}>
-            <span className="nav-links">Place to stay</span>
+          <Link
+            to="/places"
+            style={{ textDecoration: 'none' }}
+            className="nav-links"
+          >
+            Place to stay
           </Link>
           <span className="nav-links cursor-pointer">NFTs</span>
           <span className="nav-links cursor-pointer" href="#home">

@@ -6,7 +6,7 @@
 
 @layer components {
   .nav-links {
-    @apply nav-link-effect relative text-meta-grey  after:absolute md:text-lg xl:text-xl;
+    @apply nav-link-effect relative pb-0.5 text-meta-grey after:absolute md:text-lg xl:text-xl;
   }
 
   .nav-link-effect {

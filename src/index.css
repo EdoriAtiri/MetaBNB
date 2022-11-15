@@ -18,7 +18,7 @@
   }
 
   .hamburger {
-    @apply h-0.5 w-7 bg-black transition-all duration-300 ease-in;
+    @apply h-0.5 w-7 bg-[#A02279] transition-all duration-300 ease-in;
   }
 
   .hero-img {

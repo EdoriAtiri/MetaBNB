@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function MobileNavbar({ closeNav, isNavToggle }) {
   return (
     <div
-      className={`absolute top-0 left-0 w-full md:hidden ${
+      className={`absolute top-0 left-0 z-10 w-full md:hidden ${
         isNavToggle ? 'enter' : 'exit'
       }`}
     >
